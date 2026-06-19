@@ -1,0 +1,31 @@
+# --- Versions PDF dels codis (no es pugen; es poden generar des del codi) ---
+*.pdf
+
+# --- Models i pesos entrenats (massa grans per al repositori) ---
+*.pt
+*.onnx
+*.ncnn*
+best.pt
+
+# --- Sortides generades en execució ---
+resultats_fotos/
+resultats_txt/
+resultats_amb_vectors/
+imatges_a_analitzar/
+*.csv
+config_pistes.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Sistema / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
